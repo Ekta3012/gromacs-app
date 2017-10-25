@@ -1,10 +1,11 @@
-const { app, BrowserWindow } = require('electron')
+const {app, BrowserWindow} = require('electron')
 let win;
-function createWindow () {
+
+function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-   width: 800;
-   height: 500;
+    width: 800,
+    height: 500,
     backgroundColor: '#ffffff',
     icon: `file://${__dirname}/dist/assets/logo.png`
   })
@@ -16,6 +17,7 @@ function createWindow () {
     win = null
   })
 }
+
 // Create window on electron intialization
 app.on('ready', createWindow)
 // Quit when all windows are closed.
