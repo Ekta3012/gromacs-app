@@ -15,3 +15,7 @@ To build a desktop app `electron-packager . GromacsApp --platform=darwin`
 
 
 
+## The App Features
+
+
+![features screenshot](docs/features-screenshot.png "features screenshot")
